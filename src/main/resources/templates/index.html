@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recruitment</title>
+</head>
+<body>
+
+<form method="GET">
+    <label for="option-choice">Choose an option:</label>
+    <input list="option" id="option-choice" name="option-choice" />
+
+    <datalist id="option">
+        <option value="Distinct">
+        <option value="NotDistinct">
+    </datalist>
+
+    <button type="submit">Submit</button>
+</form>
+
+<div id="result">
+
+</div>
+
+<script>
+
+     let dataList = document.getElementById("option");
+     url = "http://localhost:8080/api/v1/option/result?option-choice=";
+
+    fetch(url + dataList)
+        .then(res => res.json())
+        .then(res => {
+            document.getElementById("result").innerHTML = res;
+            console.log(res)
+        });
+</script>
+
+</body>
+</html>
