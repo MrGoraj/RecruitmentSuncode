@@ -26,9 +26,13 @@ Dla załączonej bazy danych i dla podanej kolumny: kolumna1
 Pożądany wynik zapytania:
 
 4;&quot;wartość54&quot;;&quot;wartość43&quot;;&quot;wartość45&quot;;4
+
 5;&quot;wartość43&quot;;&quot;wartość23&quot;;&quot;wartość34&quot;;4
+
 6;&quot;wartość43&quot;;&quot;wartość54&quot;;&quot;wartość43&quot;;2
+
 7;&quot;wartość54&quot;;&quot;wartość52&quot;;&quot;wartość53&quot;;8
+
 9;&quot;wartość43&quot;;&quot;wartość33&quot;;&quot;wartość45&quot;;9
 
 
@@ -39,9 +43,13 @@ Dla załączonej bazy danych i dla podanej kolumny: kolumna1
 Pożądany wynik zapytania:
 
 1;&quot;wartość1&quot;;&quot;wartość2&quot;;&quot;wartość3&quot;;1
+
 2;&quot;warość21&quot;;&quot;wartość22&quot;;&quot;wartość23&quot;;5
+
 3;&quot;wartość31&quot;;&quot;wartość22&quot;;&quot;wartość32&quot;;6
+
 8;&quot;wartość21&quot;;&quot;wartość2211&quot;;&quot;wartość43&quot;;4
+
 10;&quot;wartość87&quot;;&quot;wartość62&quot;;&quot;wartość11&quot;;3
 
 4. Wyświetlenie rezultatów zapytania na stronie WWW
